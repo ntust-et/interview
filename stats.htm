@@ -1,0 +1,29 @@
+﻿
+
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<title>Stats</title>
+<Script language="javascript" type="text/javascript">
+function gup( name )
+{
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.location.href );
+  if( results == null )
+    return "";
+  else
+    return results[1];
+}
+</Script>
+</head>
+
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" bgcolor="#F0F0F0" ONDRAGSTART="window.event.returnValue=false" ONCONTEXTMENU="window.event.returnValue=false" onSelectStart="event.returnValue=false">
+<p align="center"><font size="2">&nbsp;介面運行主機：<Script>document.write(window.location.hostname);</Script>。&nbsp;&nbsp;&nbsp;資料庫主機線上負載人數：<a name="b" href="#"><img src="http://whos.amung.us/swidget/dbhhf7ekm66b.png" width="80" height="15" border="0" title="Click to see how many people are online" /></a></font></p>
+<noembed><select> <option>
+</body>
+</html>
